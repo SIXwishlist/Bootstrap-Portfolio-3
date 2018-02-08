@@ -35,9 +35,6 @@ body {
 
 #connect {
     text-align: center;
-    padding-top: 40%;
-    border-bottom: 1px solid grey;
-    margin-bottom: 10px;
 }
 
 #footer {
@@ -45,6 +42,36 @@ body {
     background-color: #666666;
     text-align: center;
     color: rgba(255, 255, 255, 0.705);
-    border-top: 2px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     margin: auto auto 0 auto
+}
+
+#mainHeader {
+    color: #4aaaa5;
+    border-bottom: 1px solid grey;
+}
+
+.navbar {
+    background-color: white;
+}
+
+#sideBarHeader {
+    color: #4aaaa5;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.sideBar {
+    padding: 10px;
+}
+
+#contactHeader {
+    color: #4aaaa5;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
 }
